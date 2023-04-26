@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono",sans-serif;
+}
+
+body{
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.21' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: larger;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 0 5px 0 0;
+}
+
+.input-field{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.age-container{
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.4);
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.no
+{
+    border: 5px solid red;
+    background-color: darkslategray;
+    padding: 35px 43px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.output-fields{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+.output-fields p{
+    color: black;
+}
+
+
+p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.dob{
+    font-size: 25px;
+    text-align: center;
+}
+
+.input-field{
+    margin: 30px 0;
+}
+
+.date{
+    height: 30px;
+    width: 160px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.calc{
+    height: 30px;
+    width: 160px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.calc:active{
+    transform: scale(0.95);
+}
+
+.calc:hover{
+    background-color: rgba(0,234,234);
+}
+
+
+.wrapper{
+    background: rgba(0,0,0,0.4);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.comment{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
